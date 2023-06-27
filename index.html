@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <div id="frame">
+        <div id="numbers">
+
+            <div id="text1">
+                <p id = "text"></p><br><br>
+                <p id = "answerText"></p>
+            </div>
+
+            <div id="allButtons">
+            <button onclick=" operation('C')" >C</button>
+            <button onclick= "operation('%')" id="modulo">%</button>
+            <button id="back" onclick=" operation('back')" > <i class="material-icons">backspace</i></button>
+            <button onclick = " operation('/') " id="/">/</button>
+            <button onclick = "operation(9)" id="9">9</button>
+            <button onclick = "operation(8)" id="8">8</button>
+            <button onclick = "operation(7)" id="7">7</button>
+            <button onclick = "operation('+')" id="+">+</button>
+            <button onclick = "operation(6)" id="6">6</button>
+            <button onclick = "operation(5)" id="5">5</button>
+            <button onclick = "operation(4)" id="4">4</button>
+            <button onclick = "operation('-')" id="-">-</button>
+            <button onclick = "operation(3)" id="3">3</button>
+            <button onclick = "operation(2)" id="2">2</button>
+            <button onclick = "operation(1)" id="1">1</button>
+            <button onclick = "operation('*')" id="*">*</button>
+            <button onclick = " operation('.') " id=".">.</button>
+            <button onclick = " operation(0) " id="0">0</button>
+            <button onclick = " operation('=') " id="=">=</button>
+            <button onclick = " operation('/') " id="/">/</button>
+            </div>
+
+
+        </div>
+
+    </div>
+    
+    <script src="script.js"></script>
+</body>
